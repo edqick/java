@@ -26,12 +26,12 @@ public class TestFibonacci {
 	public static void main(String[] args) {  
 		int testNum = 10;
 		TestFibonacci tf = new TestFibonacci();
-		//ì³²¨ÄÉÆõÊıÁĞ
+		//æ–æ³¢çº³å¥‘æ•°åˆ—
 		//for(int i = 1;i < testNum;i++){
 			//System.out.print(tf.TestFibonacci(i));
 		//	System.out.print("\t");
 		//}
-		//Ñî»ÔÈı½Ç
+		//æ¨è¾‰ä¸‰è§’
 		for(int j = 1;j < testNum + 1; j++){
 			int[] testArray = tf.TestYHTriangle(j);
 			for(int l = testNum-j;l > 0;l--){
